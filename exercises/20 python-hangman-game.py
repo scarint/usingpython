@@ -1,14 +1,13 @@
 import random
 import pickle
 
-file = open("hangmanwords.txt", "r")
 selected = False
 play = True
 word = ""
 
 while selected == False:
 # method from https://stackoverflow.com/questions/2081836/reading-specific-lines-only-python
-    choice = random.randint(0,1000) + 1
+    choice = random.randint(2,880)      # Ignore line 1
     with open("hangmanwords.txt") as fp:
         for i, line in enumerate(fp):
             if i == choice:

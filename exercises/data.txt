@@ -1,0 +1,4 @@
+Hello: Are you OK?
+Yes: Glad to hear it.
+No: Oh, that's a shame.
+hi: How are you?
